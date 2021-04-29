@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+/Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3653895003.index
+/SpringMVC_Basic02_WebSite/src
+/Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1600904969.index
+/aaa/src/main/java
+/Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3590873271.index
+/SpringMVC_Basic02_WebSite/src
+/Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2089704918.index
+/SpringMVC_Basic02_WebSite/src

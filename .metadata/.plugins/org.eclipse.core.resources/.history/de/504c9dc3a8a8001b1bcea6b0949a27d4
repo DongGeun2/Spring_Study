@@ -1,0 +1,23 @@
+package DI2;
+
+public class NewRecordView {
+	
+	// 점수를 출력하는 클래스
+	
+	private NewRecord record; // member field ( setter ) 
+	
+	
+	
+	
+	public void setRecord(NewRecordView record) {
+		this.record = record;
+	}
+
+
+
+
+	public void print() {
+		System.out.println( record.total() + "/" + record.avg());
+	}
+	
+}
