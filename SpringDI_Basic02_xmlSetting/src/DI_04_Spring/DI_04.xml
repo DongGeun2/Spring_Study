@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!-- 
+ 객체의 생성과 조립(주입)
+
+java : MessageBeanImpl messagebean = new MessageBeanImpl("hong");
+		messagebean.setGreeting("hello");
+ -->
+ <bean id="messagebean" name="m1,m2,m3,m4" class="DI_04_Spring.MessageBeanImpl">
+ 	<!-- 
+ 	<constructor-arg>
+ 		<value>hong</value>
+ 	</constructor-arg>
+ 	
+ 	setGreeting() 함수를 구현하고 있는 member field 명
+ 	<property name="greeting">
+ 		<value>hello</value>
+ 	</property>
+ 	
+ 	DI문법
+ 	<bean id="식별자(한개의 이름)" name="여러개의 이름 >> 구분자( ,  공백  ;  )" class="DI_04_Spring.MessageBeanImpl">
+ 	 -->
+ 	 
+ 	 <constructor-arg value="hong"/>
+ 	 <property name="greeting" value="hello" />
+ 	 
+ 	 
+ </bean>
+ 	
+
+</beans>

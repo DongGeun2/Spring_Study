@@ -1,0 +1,29 @@
+MVC	게시판
+
+Model (DTO, DAO, Servide) 
+
+view (JSP)
+
+Controller (Servlet)
+
+클라이언트 요청 > Controller > Service > dao, dto > Service > Controller > view > 응답
+
+1. 요구사항
+DB 를 2개 사용 : Oracle 연동, Mysql 연동
+
+Create table Article()
+
+Model
+1. dto > Article
+
+2. dao > ArticleDao (DB연결, CRUD) > 인터페이스 기반으로 설계 >> 강제하는 함수 (추상)
+ 2.1 ArticleDao 인터페이스 구현 > OracleDao 
+ 							> MysqlDao 구현
+ 				
+3. Service
+
+
+
+
+
+

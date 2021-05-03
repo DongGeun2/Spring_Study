@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- 
+객체의 생성과 조립 (주입)
+
+* Sprign 자신만의 [컨테이너(Spring전용 메모리 공간)] 제공 (IOC) 안에
+* xml 또는 annotation 을 통해서 객체의 생성과 조립을 수행 ( 객체간의 관계 설정 )
+
+ApplicationContext context = ... 컨테이너 생성되고 
+DI_05.xml 문서를 read 해서 안에있는 코드를 실행 
+
+context (컨테이너) 안에서 필요한 자원을(객체) 불러서 사용 
+
+: 제어의 역전(프로그램이 제어 구조가 바꾼다)
+: 작은 단위의 부품을 만들어 놓고 그 것을 조립하는 행 
+https://cafe.naver.com/bit2021/952 (참조)
+
+ -->
+ 
+ 	 <bean id="mybean" class="DI_05_Spring.Mybean"></bean>
+		<bean id="mybean2" class="DI_05_Spring.Mybean">
+			<constructor-arg value="hong" />
+		</bean>
+ 	<bean id="single" class="DI_05_Spring.Singleton" factory-method="getInstece"></bean>
+ 	
+ 	<!-- 
+ 	
+ 	
+ 	xml설정
+ 	3.x.x 버전 : factory-method="getInstece"
+ 	4.x.x 버전 : factory-method="getInstece" 생략 가능 	
+  
+  
+  	-->
+
+</beans>

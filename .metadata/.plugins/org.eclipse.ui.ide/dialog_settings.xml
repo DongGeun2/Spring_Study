@@ -19,6 +19,7 @@
 		<item value="org.eclipse.jgit.ssh.apache:5.11.0.202103091610-r"/>
 		<item value="org.eclipse.jgit:5.11.0.202103091610-r"/>
 		<item value="org.eclipse.jst.common.fproj.enablement.jdt:3.21.0.v202101040919"/>
+		<item value="org.eclipse.jst.enterprise_ui.feature:3.21.0.v202012212201"/>
 		<item value="org.eclipse.justj.openjdk.hotspot.jre.full:15.0.2.v20210201-0955"/>
 		<item value="org.eclipse.m2e.feature:1.17.2.20210219-1922"/>
 		<item value="org.eclipse.m2e.logback.feature:1.17.0.20200924-1339"/>
@@ -76,5 +77,41 @@
 	<section name="WORKBENCH_SETTINGS">
 		<list key="ENABLED_TRANSFERS">
 		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="544"/>
+		<item key="DIALOG_HEIGHT" value="367"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE"/>
+			<item value="/Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringDAO_Basic1"/>
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/idong-geun/Downloads/SpringMVC_Basic02_WebSite"/>
+			<item value="/Users/idong-geun/Downloads/SpringDAO_Basic5"/>
+			<item value="/Users/idong-geun/Downloads/SpringDAO_Basic4"/>
+			<item value="/Users/idong-geun/Downloads/SpringDAO_Basic3"/>
+			<item value="/Users/idong-geun/Downloads/SpringDAO_Basic2"/>
+			<item value="/Users/idong-geun/Downloads/SpringDAO_Basic1"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 </section>

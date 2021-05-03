@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- 
+
+: 제어의 역전(프로그램이 제어 구조가 바꾼다)
+: 작은 단위의 부품을 만들어 놓고 그 것을 조립하는 행 
+https://cafe.naver.com/bit2021/952 (참조)
+
+java 코드 
+	OracleArticleDao articledao = new OracleArticleDao();
+	MySqlArticleDao articledao = new MySqlArticleDao();
+	ArticleService articleservice = new ArticleService(articledao);
+	
+	Article article = new Article();
+ -->
+ 	<bean id="articledao" class="DI_06_Spring.MySqlArticleDao" />
+ 	<bean id="articleservice" class="DI_06_Spring.ArticleService">
+ 		<!-- 값이 아니라 주소값이 주입이 되어야한다. -->
+ 		<constructor-arg >
+ 			<ref bean="articledao"/>
+ 		</constructor-arg>
+ 	</bean>
+	<!-- ArticleService articleservice = new ArticleService(articledao); -->
+	<bean id="article" class="DI_06_Spring.Article"></bean>
+	
+</beans>

@@ -5,7 +5,25 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2021-04-29T06:10:00Z</updated>
+  <updated>2021-04-29T22:33:00Z</updated>
+  <entry>
+    <title>A Bootiful Podcast: Oracle's Dilip Krishnan about Spring Fox, the Oracle Cloud Lift team, and more</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/04/29/a-bootiful-podcast-oracle-s-dilip-krishnan-about-spring-fox-the-oracle-cloud-lift-team-and-more" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2021-04-29:4426</id>
+    <updated>2021-04-29T22:33:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of A Bootiful Podcast. In this installment, &lt;a href="https://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talk to Oracle&amp;rsquo;s &lt;a href="https://twitter.com/dilipkrish"&gt;Dilip Krishnan (@dilipkrish)&lt;/a&gt; about Spring Fox, the Oracle Cloud Lift team, and so much more. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://springfox.io"&gt;SpringFox website - http://springfox.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.oracle.com/cloud/cloud-lift/"&gt;Oracle cloud lift - https://www.oracle.com/cloud/cloud-lift/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A cool project that needs some love - &lt;a href="https://dev.to/cbornet/ohm-the-mediatype-for-rest-hateoas-powered-by-openapi-2aba"&gt;ohm&lt;/a&gt; from OSS contributor Christophe Bornet, one of the key contributors to &lt;a href="https://www.jhipster.tech"&gt;JHipster&lt;/a&gt; and &lt;a href="https://openapi-generator.tech/docs/core-team/"&gt;OpenAPI Generator&lt;/a&gt; &lt;/p&gt;
+&lt;iframe title="Oracle's Dilip Krishnan on SpringFox, the Oracle Cloud Lift team, and more" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=aqr9y-10221ad-pb&amp;from=pb6admin&amp;download=1&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;btn-skin=7"&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Webinar: Accelerate Spring Apps to Cloud at Scale</title>
     <link rel="alternate" href="https://spring.io/blog/2021/04/28/webinar-accelerate-spring-apps-to-cloud-at-scale" />
@@ -1276,23 +1294,6 @@ interface HelloClient {&#xD;
 &lt;div class="paragraph"&gt;
 &lt;p&gt;&lt;a href="http://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/"&gt;Reference&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: Ambassador Labs devrel director, InfoQ contributor, lifelong learner, and awesome human, and friend Daniel Bryant</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/04/08/a-bootiful-podcast-ambassador-labs-devrel-director-infoq-contributor-lifelong-learner-and-awesome-human-and-friend-daniel-bryant" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2021-04-09:4406</id>
-    <updated>2021-04-09T03:37:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! In this episode &lt;a href="https://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks to Ambassador Labs devrel director, InfoQ contributor, lifelong learner, and awesome human, and friend &lt;a href="https://twitter.com/danielbryantuk"&gt;Daniel Bryant (@danielbryantuk)&lt;/a&gt;. &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.getambassador.io/developer-office-hours/"&gt;the Ambassador Office Hours&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://tanzu.vmware.com/content/webinars/apr-15-rapid-development-with-azure-spring-cloud-workshop-preview"&gt;Sign up for the Rapid Development with Azure Spring Cloud webinar &lt;/a&gt; that Microsoft&amp;rsquo;s Julien Dubois and I are putting on April 15th, 2021.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;iframe title="Ambassador Labs devrel director, InfoQ contributor, lifelong learner, and awesome human, and friend Daniel Bryant" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=t2823-1002c28-pb&amp;from=pb6admin&amp;download=1&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;btn-skin=7"&gt;&lt;/iframe&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

@@ -1,2 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="DI.NewRecord"/>
+    <fullyQualifiedTypeName name="DI.NewRecordView"/>
+    <fullyQualifiedTypeName name="DI2.NewRecordView"/>
+    <fullyQualifiedTypeName name="DI2.NewRecord"/>
+    <fullyQualifiedTypeName name="DI3.Record"/>
+    <fullyQualifiedTypeName name="DI3.RecordView"/>
+    <fullyQualifiedTypeName name="java.awt.datatransfer.SystemFlavorMap"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="DI3.NewRecord"/>
+    <fullyQualifiedTypeName name="Spring_DI4.RecordView"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="MessageBean"/>
+    <fullyQualifiedTypeName name="DI_02.MessageBean"/>
+    <fullyQualifiedTypeName name="DI_02.HelloApp"/>
+    <fullyQualifiedTypeName name="DI_02.MessageBean_en"/>
+    <fullyQualifiedTypeName name="DI_03_Spring.MessageBean"/>
+    <fullyQualifiedTypeName name="DI_04_Spring.MessageBean"/>
+    <fullyQualifiedTypeName name="DI_04_Spring.MessageBeanImpl"/>
+    <fullyQualifiedTypeName name="DI_05_Spring.Mybean"/>
+    <fullyQualifiedTypeName name="DI_05_Spring.Singleton"/>
+    <fullyQualifiedTypeName name="DI_06_Spring.ArticleDao"/>
+    <fullyQualifiedTypeName name="DI_06_Spring.OracleArticleDao"/>
+    <fullyQualifiedTypeName name="DI_06_Spring.ArticleService"/>
+    <fullyQualifiedTypeName name="DI_06_Spring.Article"/>
+    <fullyQualifiedTypeName name="DI_06_Spring.MySqlArticleDao"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="DI_07_Spring.MyFilter"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="DI_07_Spring.EncFilter"/>
+    <fullyQualifiedTypeName name="DI_07_Spring.HeaderFilter"/>
+    <fullyQualifiedTypeName name="DI_07_Spring.ZipFilter"/>
+    <fullyQualifiedTypeName name="DI_07_Spring.ProtocolHandler"/>
+    <fullyQualifiedTypeName name="DI_08_Spring.JobExecute"/>
+    <fullyQualifiedTypeName name="DI_08_Spring.ArticleDao"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="DI_09_Spring.ProtocolHandler"/>
+    <fullyQualifiedTypeName name="DI_09_Spring.RssHandler"/>
+    <fullyQualifiedTypeName name="DI_09_Spring.RestHandler"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="DI_09_Spring.ProtocolHandlerFactory"/>
+</qualifiedTypeNameHistroy>
