@@ -17,7 +17,6 @@ public class Program {
 		result = cal.MUL(555, 555);
 		System.out.println("result : " + result);
 		
-		
 		result = cal.SUB(655, 555);
 		System.out.println("result : " + result);
 	}

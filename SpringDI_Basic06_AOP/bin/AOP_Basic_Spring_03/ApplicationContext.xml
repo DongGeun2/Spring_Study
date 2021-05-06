@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context 
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	<!--  
+		 1. 실 객체의 주소
+		Calc calc = new NewCalc();
+		
+		 2. 가짜를 생성
+		Calc cal = (Calc)Proxy.newProxyInstance(calc.getClass().getClassLoader(),  // 실객체의 메타정보
+							   calc.getClass().getInterfaces(),   // 실객체의 행위정보
+							   new LogPrintHandler(calc));        // 보조객체의 정보
+		int result = cal.ADD(555, 555);
+		
+		
+		import org.springframework.aop.framework.ProxyFactoryBean;
+	-->
+	<bean id="calc" class="AOP_Basic_Spring_03.NewCalc" />
+	<bean id="logPrintAroundAdvice" class="AOP_Basic_Spring_03.LogPrintAroundAdvice" />
+	
+	<!-- 프록시 -->
+	<bean id="proxy" class="org.springframework.aop.framework.ProxyFactoryBean" >
+		<property name="proxyInterfaces"> <!-- 행위정보 -->
+			<list>
+				<value>AOP_Basic_Spring_03.Calc</value>
+			</list>
+		</property> 
+		<property name="target" ref="calc" /> <!-- 실객체의 주소 -->
+		<property name="interceptorNames">
+			<list>
+				<value>logPrintAroundAdvice</value>   <!-- Advice 가지는 보조업무 객체 -->
+			</list>
+		</property>	
+	</bean>
+	
+	
+</beans> 
+
+
+
+

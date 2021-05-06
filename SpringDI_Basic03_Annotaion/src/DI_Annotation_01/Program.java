@@ -17,7 +17,7 @@ public class Program {
 		ApplicationContext context = new GenericXmlApplicationContext("classpath:DI_Annotation_01/DI_Annotation_01.xml");
 		MonitorViewer viewer = context.getBean("monitorViewer",MonitorViewer.class);
 		
-		System.out.println(viewer);
+		System.out.println(viewer.getRecorder());
 		
 	}
 

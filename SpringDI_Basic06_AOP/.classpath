@@ -8,5 +8,6 @@
 	<classpathentry kind="lib" path="/Users/idong-geun/IT/파일모음/framework/spring-framework-4.2.5.RELEASE/libs/spring-context-4.2.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Users/idong-geun/IT/파일모음/framework/spring-framework-4.2.5.RELEASE/libs/spring-core-4.2.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Users/idong-geun/IT/파일모음/framework/spring-framework-4.2.5.RELEASE/libs/spring-expression-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/idong-geun/IT/파일모음/framework/spring-framework-3.0.2.RELEASE-dependencies/org.aopalliance/com.springsource.org.aopalliance/1.0.0/com.springsource.org.aopalliance-1.0.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

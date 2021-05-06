@@ -102,6 +102,8 @@
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
 			<item value="/Users/idong-geun/Downloads/SpringMVC_Basic02_WebSite"/>
+			<item value="/Users/idong-geun/Downloads/SpringLabs/SpringDI_Basic05_Prototype"/>
+			<item value="/Users/idong-geun/Downloads/SpringLabs/SpringDI_Basic04_Bean_LifeCycle"/>
 			<item value="/Users/idong-geun/Downloads/SpringDAO_Basic5"/>
 			<item value="/Users/idong-geun/Downloads/SpringDAO_Basic4"/>
 			<item value="/Users/idong-geun/Downloads/SpringDAO_Basic3"/>
