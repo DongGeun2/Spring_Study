@@ -35,9 +35,17 @@ IOC 컨테이너에 적재될 bean 객체 생성과 injection (DI)
 -->
 
 	<context:annotation-config />                    
-                                 
-	<bean class="ncontroller.CustomerController"></bean>
+    <context:component-scan base-package="ncontroller" />
+     
+     <!-- 게시판 빈 생성이 자동화 : component-scan -->
+	<!-- <bean class="ncontroller.CustomerController"></bean> -->
 	<bean class="dao.NoticeDao"></bean>
+
+	<!-- 파일업로드 보조(반드시) -->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="10485760"></property>
+		<property name="defaultEncoding" value="UTF-8"></property>
+	</bean>
 	
 </beans> 
 

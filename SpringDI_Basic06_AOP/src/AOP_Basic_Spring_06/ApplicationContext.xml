@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context 
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	<!--  
+		 1. 실 객체의 주소
+		Calc calc = new NewCalc();
+		
+		 2. 가짜를 생성
+		Calc cal = (Calc)Proxy.newProxyInstance(calc.getClass().getClassLoader(),  // 실객체의 메타정보
+							   calc.getClass().getInterfaces(),   // 실객체의 행위정보
+							   new LogPrintHandler(calc));        // 보조객체의 정보
+		int result = cal.ADD(555, 555);
+		
+		
+		import org.springframework.aop.framework.ProxyFactoryBean;
+		
+		Spring
+		1. org.springframework.aop.framework.ProxyFactoryBean 통해서 프록시 객체 생성
+		2. LogPrintAroundAdvice 객체(bean) 생성
+		3. LogPrintBeforeAdvice 객체(bean) 생성
+		4. LogPrintAfterAdvice 객체(bean) 생성
+		
+		하나의 함수가 동작할때 여러개의 보조업무 수행 가능 하다 (advice)
+		
+		문제점 ) ADD, MUL, SUB 3개의 함수 모두 보조 업무가 실행
+		
+		joinpoint > pointcut 개념을 사용해서
+		특정함수 (지정한) 제한적으로 보조관심(공통모듈)을 적용하고 싶다
+		
+		> pointcut 사용해서 특정 함수 ... 보조 업무
+		
+		
+		import org.springframework.aop.support.NameMatchMethodPointcut;
+		import org.springframework.aop.support.DefaultPointcutAdvisor;
+		
+	-->
+	
+	<bean id="calc" class="AOP_Basic_Spring_06.NewCalc" />
+	<bean id="logPrintAroundAdvice" class="AOP_Basic_Spring_06.LogPrintAroundAdvice" />
+	<bean id="logPrintBeforeAdvice" class="AOP_Basic_Spring_06.LogPrintBeforeAdvice" />
+	<bean id="logPrintAfterAdvice" class="AOP_Basic_Spring_06.LogPrintAfterAdvice" />
+	
+	<!-- pointcut -->
+	<!-- 1단계 -->
+	<bean id="nameMatchMethodPointcut" class="org.springframework.aop.support.NameMatchMethodPointcut" >
+		<property name="mappedNames">
+			<list>
+				<value>ADD</value>
+				<value>MUL</value>
+			</list>
+		</property>
+	</bean>
+	
+	<!-- 2단계 Pointcut 에 적용될 advice 설정 -->
+	<bean id="defaultPointcutAdvisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+		<property name="pointcut" ref="nameMatchMethodPointcut"></property>
+		<property name="advice" ref="logPrintAroundAdvice"></property>
+	</bean>
+		
+		
+	<!-- 3단계 -->
+	<!-- 프록시 -->
+	<bean id="proxy" class="org.springframework.aop.framework.ProxyFactoryBean" >
+		<property name="proxyInterfaces"> <!-- 행위정보 -->
+			<list>
+				<value>AOP_Basic_Spring_06.Calc</value>
+			</list>
+		</property> 
+		<property name="target" ref="calc" /> <!-- 실객체의 주소 -->
+		<property name="interceptorNames">
+			<list>
+				<value>defaultPointcutAdvisor</value>
+			</list>
+		</property>	
+	</bean>
+	
+	
+</beans> 
+
+
+
+

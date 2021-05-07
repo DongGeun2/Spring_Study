@@ -77,7 +77,8 @@
 							공지사항등록
 						</li>
 					</ul>
-					<form action="" method="post">
+					<!-- **action 주소가 없다는것은 : 현재 location 주소를 그대로 사용 하겠다. -->
+					<form action="" method="post" enctype="multipart/form-data">
 						<div id="notice-article-detail" class="article-detail margin-large" >						
 							<dl class="article-detail-row">
 								<dt class="article-detail-title">

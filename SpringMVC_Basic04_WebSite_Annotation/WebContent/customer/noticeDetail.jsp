@@ -117,7 +117,7 @@
 								첨부파일
 							</dt>
 							<dd class="article-detail-data">
-								<a href="">flag.png</a>
+								<a href="">${notice.fileSrc}</a>
 							</dd>
 						</dl>
 
@@ -127,7 +127,7 @@
 					</div>
 					<p class="article-comment margin-small">
 						<a class="btn-list button" href="notice.htm">목록</a>						
-						<a class="btn-edit button" href="noticeEdit.jsp">수정</a>
+						<a class="btn-edit button" href="noticeEdit.htm?seq=${notice.seq}">수정</a>
 						<a class="btn-del button" href="noticeDel.jsp">삭제</a>
 					</p>
 					<div class="margin-small" style="border-top: 1px solid #dfdfdf;">
