@@ -1,4 +1,4 @@
-1. Table 생성
+41. Table 생성
 create table usermember(
  id varchar2(20),
  name varchar2(20),
