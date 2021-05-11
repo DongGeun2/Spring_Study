@@ -2117,3 +2117,742 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.oracle:oj
 2021-05-10 19:14:50,686 [Worker-804: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2021-05-10 19:14:50,687 [Worker-804: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-05-10 19:14:50,688 [Worker-804: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/aopEx2/src/test/resources
+2021-05-11 09:35:50,375 [Worker-905: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 09:35:50,387 [Worker-905: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 09:35:50,396 [Worker-905: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 09:35:50,397 [Worker-905: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 10:00:28,155 [Worker-921: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:00:28,237 [Worker-921: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src
+2021-05-11 10:00:28,239 [Worker-921: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/java because it overlaps with /SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src
+2021-05-11 10:00:28,358 [Worker-921: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-05-11 10:00:28,382 [Worker-921: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:00:28,444 [Worker-921: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src
+2021-05-11 10:00:28,445 [Worker-921: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/java because it overlaps with /SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src
+2021-05-11 10:00:28,694 [Worker-921: Enabling Maven Dependency Management] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:00:28,702 [Worker-921: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-05-11 10:00:29,914 [Worker-921: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:00:29,914 [Worker-921: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:00:29,915 [Worker-921: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:00:29,915 [Worker-921: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:00:29,915 [Worker-921: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:00:29,915 [Worker-921: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:00:29,944 [Worker-921: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:10:44,036 [Worker-929: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:10:46,374 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2021-05-11 10:10:47,322 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2021-05-11 10:10:47,672 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2021-05-11 10:10:48,007 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.pom
+2021-05-11 10:10:48,223 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.pom
+2021-05-11 10:10:48,968 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.pom
+2021-05-11 10:10:49,120 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.pom
+2021-05-11 10:10:49,358 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.pom
+2021-05-11 10:10:50,252 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-expression/4.2.5.RELEASE/spring-expression-4.2.5.RELEASE.pom
+2021-05-11 10:10:50,425 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.2.5.RELEASE/spring-expression-4.2.5.RELEASE.pom
+2021-05-11 10:10:50,640 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.2.5.RELEASE/spring-expression-4.2.5.RELEASE.pom
+2021-05-11 10:10:51,406 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.pom
+2021-05-11 10:10:51,609 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.pom
+2021-05-11 10:10:51,874 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.pom
+2021-05-11 10:10:52,786 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.pom
+2021-05-11 10:10:52,957 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.pom
+2021-05-11 10:10:53,182 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.pom
+2021-05-11 10:10:53,988 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.pom
+2021-05-11 10:10:54,174 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.pom
+2021-05-11 10:10:54,390 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.pom
+2021-05-11 10:10:55,169 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.pom
+2021-05-11 10:10:55,444 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.pom
+2021-05-11 10:10:55,610 [Worker-929: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.pom
+2021-05-11 10:10:56,407 [AetherRepositoryConnector-maven.jahia.org-6-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar
+2021-05-11 10:10:57,092 [AetherRepositoryConnector-maven.jahia.org-6-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.jar
+2021-05-11 10:10:57,745 [AetherRepositoryConnector-maven.jahia.org-6-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar
+2021-05-11 10:10:58,138 [AetherRepositoryConnector-maven.jahia.org-6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2021-05-11 10:10:58,141 [AetherRepositoryConnector-maven.jahia.org-6-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar
+2021-05-11 10:10:58,138 [AetherRepositoryConnector-maven.jahia.org-6-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-expression/4.2.5.RELEASE/spring-expression-4.2.5.RELEASE.jar
+2021-05-11 10:10:58,138 [AetherRepositoryConnector-maven.jahia.org-6-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar
+2021-05-11 10:10:58,412 [AetherRepositoryConnector-maven.jahia.org-6-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar
+2021-05-11 10:10:58,793 [AetherRepositoryConnector-maven.jahia.org-6-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar
+2021-05-11 10:10:59,101 [AetherRepositoryConnector-maven.jahia.org-6-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar
+2021-05-11 10:10:59,276 [AetherRepositoryConnector-repo.maven.apache.org-7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2021-05-11 10:10:59,487 [AetherRepositoryConnector-repo.maven.apache.org-7-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.2.5.RELEASE/spring-expression-4.2.5.RELEASE.jar
+2021-05-11 10:10:59,487 [AetherRepositoryConnector-repo.maven.apache.org-7-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar
+2021-05-11 10:10:59,492 [AetherRepositoryConnector-repo.maven.apache.org-7-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar
+2021-05-11 10:10:59,485 [AetherRepositoryConnector-repo.maven.apache.org-7-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar
+2021-05-11 10:10:59,833 [AetherRepositoryConnector-repo.maven.apache.org-7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2021-05-11 10:11:00,481 [AetherRepositoryConnector-repo.maven.apache.org-7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.jar
+2021-05-11 10:11:00,709 [AetherRepositoryConnector-repo.maven.apache.org-7-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar
+2021-05-11 10:11:00,709 [AetherRepositoryConnector-repo.maven.apache.org-7-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.2.5.RELEASE/spring-expression-4.2.5.RELEASE.jar
+2021-05-11 10:11:00,732 [AetherRepositoryConnector-repo.maven.apache.org-7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.jar
+2021-05-11 10:11:00,876 [AetherRepositoryConnector-repo.maven.apache.org-7-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar
+2021-05-11 10:11:01,028 [AetherRepositoryConnector-repo.maven.apache.org-7-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar
+2021-05-11 10:11:01,028 [AetherRepositoryConnector-repo.maven.apache.org-7-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar
+2021-05-11 10:11:01,028 [AetherRepositoryConnector-repo.maven.apache.org-7-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar
+2021-05-11 10:11:01,079 [AetherRepositoryConnector-repo.maven.apache.org-7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar
+2021-05-11 10:11:01,389 [AetherRepositoryConnector-repo.maven.apache.org-7-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar
+2021-05-11 10:11:01,393 [AetherRepositoryConnector-repo.maven.apache.org-7-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar
+2021-05-11 10:11:01,784 [AetherRepositoryConnector-repo.maven.apache.org-7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar
+2021-05-11 10:11:01,784 [AetherRepositoryConnector-repo.maven.apache.org-7-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar
+2021-05-11 10:11:01,974 [AetherRepositoryConnector-repo.maven.apache.org-7-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar
+2021-05-11 10:11:02,651 [Worker-929: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:02,656 [Worker-929: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:11:02,658 [Worker-929: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:02,658 [Worker-929: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:11:02,659 [Worker-929: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:11:02,659 [Worker-929: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:11:02,663 [Worker-929: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:04,780 [Worker-935: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:11:04,996 [Worker-935: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:04,997 [Worker-935: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:11:04,997 [Worker-935: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:04,997 [Worker-935: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:11:04,997 [Worker-935: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:11:04,997 [Worker-935: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:11:04,999 [Worker-935: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:07,435 [Worker-938: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:07,436 [Worker-938: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:11:07,438 [Worker-938: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:07,438 [Worker-938: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:11:08,861 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/com/oracle/ojdbc6/12.1.0.1/ojdbc6-12.1.0.1-javadoc.jar
+2021-05-11 10:11:09,572 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/oracle/ojdbc6/12.1.0.1/ojdbc6-12.1.0.1-javadoc.jar
+2021-05-11 10:11:09,589 [Worker-937: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.oracle:ojdbc6:12.1.0.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.oracle:ojdbc6:jar:javadoc:12.1.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-05-11 10:11:11,880 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:12,524 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:13,355 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:13,385 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.2.5.RELEASE
+2021-05-11 10:11:16,147 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+2021-05-11 10:11:16,963 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+2021-05-11 10:11:17,432 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+2021-05-11 10:11:17,457 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2021-05-11 10:11:19,928 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:20,740 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:21,775 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:21,797 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.2.5.RELEASE
+2021-05-11 10:11:24,165 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:24,920 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:26,071 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:26,092 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.2.5.RELEASE
+2021-05-11 10:11:28,508 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-expression/4.2.5.RELEASE/spring-expression-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:29,312 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.2.5.RELEASE/spring-expression-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:29,995 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.2.5.RELEASE/spring-expression-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:30,025 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.2.5.RELEASE
+2021-05-11 10:11:32,387 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:33,094 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:33,750 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:33,774 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.2.5.RELEASE
+2021-05-11 10:11:36,148 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:36,822 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:37,538 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:37,560 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.2.5.RELEASE
+2021-05-11 10:11:40,006 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:40,678 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:41,301 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:41,330 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.2.5.RELEASE
+2021-05-11 10:11:43,795 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:44,599 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:45,674 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:45,704 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.2.5.RELEASE
+2021-05-11 10:11:47,436 [Worker-940: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:11:47,723 [Worker-940: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:47,734 [Worker-940: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:11:47,739 [Worker-940: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:47,740 [Worker-940: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:11:47,741 [Worker-940: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:11:47,741 [Worker-940: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:11:47,746 [Worker-940: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:48,138 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:48,794 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:50,240 [Worker-937: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE-sources.jar
+2021-05-11 10:11:50,298 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:4.2.5.RELEASE
+2021-05-11 10:11:50,323 [Worker-940: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:50,333 [Worker-940: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:11:50,344 [Worker-940: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:50,346 [Worker-940: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:11:50,351 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.2.5.RELEASE
+2021-05-11 10:11:50,356 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2021-05-11 10:11:50,359 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.2.5.RELEASE
+2021-05-11 10:11:50,360 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.2.5.RELEASE
+2021-05-11 10:11:50,362 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.2.5.RELEASE
+2021-05-11 10:11:50,363 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.2.5.RELEASE
+2021-05-11 10:11:50,367 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.2.5.RELEASE
+2021-05-11 10:11:50,371 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.2.5.RELEASE
+2021-05-11 10:11:50,373 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.2.5.RELEASE
+2021-05-11 10:11:50,374 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:4.2.5.RELEASE
+2021-05-11 10:11:50,559 [Worker-937: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:4.2.5.RELEASE
+2021-05-11 10:11:52,393 [Worker-938: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:52,394 [Worker-938: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:11:52,394 [Worker-938: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:52,395 [Worker-938: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:11:53,816 [Worker-938: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:11:54,096 [Worker-938: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:54,096 [Worker-938: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:11:54,096 [Worker-938: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:54,097 [Worker-938: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:11:54,097 [Worker-938: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:11:54,097 [Worker-938: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:11:54,098 [Worker-938: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:54,323 [Worker-943: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:54,324 [Worker-943: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:11:54,324 [Worker-943: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:11:54,324 [Worker-943: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:15:00,710 [Worker-943: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:15:01,018 [Worker-943: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:15:01,025 [Worker-943: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:15:01,030 [Worker-943: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:15:01,031 [Worker-943: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:15:01,031 [Worker-943: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:15:01,031 [Worker-943: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:15:01,034 [Worker-943: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:15:02,256 [Worker-948: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:15:02,257 [Worker-948: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:15:02,257 [Worker-948: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:15:02,257 [Worker-948: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:15:07,478 [Worker-945: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1-sources.jar
+2021-05-11 10:15:08,157 [Worker-946: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:15:08,160 [Worker-945: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1-sources.jar
+2021-05-11 10:15:08,681 [Worker-945: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1-sources.jar
+2021-05-11 10:15:08,703 [Worker-945: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.2.1
+2021-05-11 10:15:09,232 [Worker-946: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:15:09,242 [Worker-946: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:15:09,244 [Worker-946: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:15:09,245 [Worker-946: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:15:09,246 [Worker-946: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:15:09,246 [Worker-946: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:15:09,263 [Worker-946: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:15:11,277 [Worker-945: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/commons-io/commons-io/1.4/commons-io-1.4-sources.jar
+2021-05-11 10:15:11,915 [Worker-945: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/1.4/commons-io-1.4-sources.jar
+2021-05-11 10:15:12,552 [Worker-945: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/1.4/commons-io-1.4-sources.jar
+2021-05-11 10:15:12,573 [Worker-945: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:1.4
+2021-05-11 10:15:12,611 [Worker-945: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:1.4
+2021-05-11 10:15:13,174 [Worker-940: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:15:13,178 [Worker-940: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:15:13,179 [Worker-940: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:15:13,179 [Worker-940: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:17:59,722 [Worker-952: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:18:00,030 [Worker-952: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:18:00,034 [Worker-952: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:18:00,037 [Worker-952: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:18:00,037 [Worker-952: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:18:00,037 [Worker-952: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:18:00,037 [Worker-952: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:18:00,051 [Worker-952: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:18:01,082 [Worker-951: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:18:01,084 [Worker-951: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:18:01,085 [Worker-951: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:18:01,086 [Worker-951: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:18:06,671 [Worker-952: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar
+2021-05-11 10:18:07,619 [Worker-952: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar
+2021-05-11 10:18:08,195 [Worker-952: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar
+2021-05-11 10:18:08,216 [Worker-952: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:javax.servlet-api:3.1.0
+2021-05-11 10:18:08,730 [Worker-945: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:18:08,734 [Worker-945: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:18:08,735 [Worker-945: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:18:08,735 [Worker-945: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:20:15,382 [Worker-956: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:20:15,382 [Worker-956: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:20:15,385 [Worker-956: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:20:15,386 [Worker-956: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:20:49,696 [Worker-951: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:20:49,926 [Worker-951: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:20:49,926 [Worker-951: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:20:49,927 [Worker-951: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:20:49,927 [Worker-951: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:20:49,928 [Worker-951: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:20:49,928 [Worker-951: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:20:49,930 [Worker-951: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:20:55,829 [Worker-951: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:20:56,119 [Worker-951: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:20:56,126 [Worker-951: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:20:56,128 [Worker-951: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:20:56,129 [Worker-951: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:20:56,130 [Worker-951: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:20:56,130 [Worker-951: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:20:56,139 [Worker-951: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:07,190 [Worker-959: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:21:07,428 [Worker-959: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:07,429 [Worker-959: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:21:07,430 [Worker-959: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:07,430 [Worker-959: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:21:07,430 [Worker-959: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:21:07,430 [Worker-959: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:21:07,431 [Worker-959: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:08,972 [Worker-959: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:08,972 [Worker-959: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:21:08,973 [Worker-959: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:08,973 [Worker-959: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:21:11,200 [Worker-959: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:21:11,847 [Worker-959: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:11,855 [Worker-959: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:21:11,856 [Worker-959: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:11,857 [Worker-959: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:21:11,857 [Worker-959: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:21:11,857 [Worker-959: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:21:11,859 [Worker-959: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:12,325 [Worker-958: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:12,327 [Worker-958: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:21:12,327 [Worker-958: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:12,327 [Worker-958: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:21:28,060 [Worker-955: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:21:28,243 [Worker-955: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:28,243 [Worker-955: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:21:28,244 [Worker-955: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:28,244 [Worker-955: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:21:28,244 [Worker-955: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:21:28,244 [Worker-955: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:21:28,245 [Worker-955: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:51,371 [Worker-955: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-05-11 10:21:51,490 [Worker-955: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:21:51,743 [Worker-955: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src
+2021-05-11 10:21:51,743 [Worker-955: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/java because it overlaps with /SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src
+2021-05-11 10:21:52,432 [Worker-955: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:21:52,447 [Worker-955: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-05-11 10:21:53,042 [Worker-962: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:53,042 [Worker-962: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:21:53,044 [Worker-962: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:21:53,044 [Worker-962: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:21:53,044 [Worker-962: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:21:53,044 [Worker-962: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:21:53,048 [Worker-962: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:22:34,220 [Worker-955: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_WebSite_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:22:35,380 [Worker-955: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:22:35,396 [Worker-955: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:22:35,418 [Worker-955: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:22:35,420 [Worker-955: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:22:35,421 [Worker-955: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:22:35,422 [Worker-955: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:22:35,448 [Worker-955: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:22:37,910 [Worker-958: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_WebSite_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:22:38,105 [Worker-958: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:22:38,105 [Worker-958: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:22:38,105 [Worker-958: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:22:38,106 [Worker-958: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:22:38,106 [Worker-958: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:22:38,106 [Worker-958: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:22:38,111 [Worker-958: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:22:43,272 [Worker-957: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_WebSite_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:22:43,454 [Worker-957: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:22:43,454 [Worker-957: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:22:43,455 [Worker-957: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:22:43,455 [Worker-957: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:22:43,455 [Worker-957: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:22:43,455 [Worker-957: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:22:43,457 [Worker-957: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:23:05,320 [Worker-955: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_WebSite_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:23:06,359 [Worker-955: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:23:06,369 [Worker-955: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:23:06,371 [Worker-955: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:23:06,372 [Worker-955: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:23:06,373 [Worker-955: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:23:06,373 [Worker-955: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:23:06,385 [Worker-955: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:24:54,661 [Worker-962: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_WebSite_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:24:54,878 [Worker-962: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:24:54,879 [Worker-962: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:24:54,879 [Worker-962: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:24:54,879 [Worker-962: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:24:54,880 [Worker-962: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:24:54,880 [Worker-962: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:24:54,881 [Worker-962: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:14,659 [Worker-955: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_WebSite_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:25:15,528 [Worker-955: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:15,539 [Worker-955: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:25:15,542 [Worker-955: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:15,542 [Worker-955: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:25:15,543 [Worker-955: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:25:15,543 [Worker-955: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:25:15,559 [Worker-955: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:19,570 [Worker-965: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_WebSite_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:25:19,765 [Worker-965: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:19,766 [Worker-965: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:25:19,767 [Worker-965: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:19,767 [Worker-965: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:25:19,767 [Worker-965: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:25:19,768 [Worker-965: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:25:19,769 [Worker-965: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:22,116 [Worker-965: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_WebSite_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:25:22,305 [Worker-965: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:22,305 [Worker-965: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:25:22,306 [Worker-965: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:22,306 [Worker-965: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:25:22,306 [Worker-965: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:25:22,306 [Worker-965: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:25:22,307 [Worker-965: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:25,038 [Worker-957: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_WebSite_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:25:25,335 [Worker-957: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:25,339 [Worker-957: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:25:25,340 [Worker-957: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:25,340 [Worker-957: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:25:25,340 [Worker-957: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:25:25,340 [Worker-957: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:25:25,342 [Worker-957: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:30,971 [Worker-967: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_WebSite_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:25:31,319 [Worker-967: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:31,325 [Worker-967: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:25:31,326 [Worker-967: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:31,327 [Worker-967: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:25:31,327 [Worker-967: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:25:31,327 [Worker-967: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:25:31,330 [Worker-967: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:52,216 [Worker-968: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:25:52,221 [Worker-968: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SpringMVC_Dy_Convert
+2021-05-11 10:25:52,228 [Worker-968: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SpringMVC_Maven
+2021-05-11 10:25:55,790 [Worker-967: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:55,805 [Worker-967: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:25:55,809 [Worker-967: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:55,810 [Worker-967: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:25:55,812 [Worker-967: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:25:55,812 [Worker-967: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:25:55,821 [Worker-967: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:56,726 [Worker-967: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:56,727 [Worker-967: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Dy_Convert/src/main/resources
+2021-05-11 10:25:56,728 [Worker-967: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:56,728 [Worker-967: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Dy_Convert/src/test/resources
+2021-05-11 10:25:56,728 [Worker-967: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Dy_Convert
+2021-05-11 10:25:56,728 [Worker-967: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Dy_Convert
+2021-05-11 10:25:56,731 [Worker-967: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:56,853 [Worker-967: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:56,855 [Worker-967: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 10:25:56,856 [Worker-967: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:56,857 [Worker-967: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 10:25:56,857 [Worker-967: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Maven
+2021-05-11 10:25:56,857 [Worker-967: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Maven
+2021-05-11 10:25:56,860 [Worker-967: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:25:56,903 [Worker-967: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-11 10:25:56,904 [Worker-967: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 10:25:56,905 [Worker-967: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-11 10:25:56,905 [Worker-967: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/aopEx2/src/test/resources
+2021-05-11 10:26:19,905 [Worker-965: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_WebSite_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:26:19,999 [Worker-965: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:26:20,004 [Worker-965: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:26:20,005 [Worker-965: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:26:20,005 [Worker-965: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:26:20,005 [Worker-965: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:26:20,005 [Worker-965: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:26:20,008 [Worker-965: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:26:29,342 [Worker-968: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:850)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1069)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1068)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:251)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-05-11 10:26:29,395 [Worker-965: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:560)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:562)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:518)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:364)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:315)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.EOFException: no more data available - expected end tag </project> to close start tag <project> from line 1, parser stopped on END_TAG seen ...</plugins>\n\t</build>\n... @140:1
+	at org.codehaus.plexus.util.xml.pull.MXParser.fillBuf(MXParser.java:3761)
+	at org.codehaus.plexus.util.xml.pull.MXParser.more(MXParser.java:3776)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1683)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1319)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1302)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2072)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3872)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:112)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:85)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:558)
+	... 23 common frames omitted
+2021-05-11 10:26:31,818 [Worker-967: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:560)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:562)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:518)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:364)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:315)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.EOFException: no more data available - expected end tag </project> to close start tag <project> from line 1, parser stopped on END_TAG seen ...</plugins>\n\t</build>\n... @140:1
+	at org.codehaus.plexus.util.xml.pull.MXParser.fillBuf(MXParser.java:3761)
+	at org.codehaus.plexus.util.xml.pull.MXParser.more(MXParser.java:3776)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1683)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1319)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1302)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2072)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3872)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:112)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:85)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:558)
+	... 23 common frames omitted
+2021-05-11 10:26:34,511 [Worker-962: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.bit:SpringMVC_Basic08_WebSite_Maven_Convert:0.0.1-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/pom.xml.
+2021-05-11 10:26:34,583 [Worker-962: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:26:34,583 [Worker-962: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:26:34,584 [Worker-962: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:26:34,584 [Worker-962: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:26:34,584 [Worker-962: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:26:34,584 [Worker-962: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 10:26:34,586 [Worker-962: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:26:36,371 [Worker-967: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:26:36,371 [Worker-967: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 10:26:36,376 [Worker-967: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:26:36,377 [Worker-967: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 10:28:43,368 [Worker-971: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: a.b:c:1.0.0-BUILD-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic09_Website_Maven_MyBatis/pom.xml.
+2021-05-11 10:28:43,495 [Worker-971: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:28:43,498 [Worker-971: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 10:28:43,500 [Worker-971: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:28:43,500 [Worker-971: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 10:28:43,977 [Worker-973: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:28:43,978 [Worker-973: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 10:28:43,979 [Worker-973: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:28:43,979 [Worker-973: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 10:29:40,698 [Worker-970: Building Project SpringMVC_Basic09_Website_Maven_MyBatis] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:29:40,709 [Worker-970: Building Project SpringMVC_Basic09_Website_Maven_MyBatis] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 10:29:40,711 [Worker-970: Building Project SpringMVC_Basic09_Website_Maven_MyBatis] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:29:40,712 [Worker-970: Building Project SpringMVC_Basic09_Website_Maven_MyBatis] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 10:33:59,517 [Worker-974: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: a.b:c:1.0.0-BUILD-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic09_Website_Maven_MyBatis/pom.xml.
+2021-05-11 10:33:59,626 [Worker-974: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:33:59,631 [Worker-974: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 10:33:59,632 [Worker-974: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:33:59,633 [Worker-974: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 10:33:59,633 [Worker-974: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic09_Website_Maven_MyBatis
+2021-05-11 10:33:59,633 [Worker-974: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic09_Website_Maven_MyBatis
+2021-05-11 10:33:59,636 [Worker-974: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:34:00,001 [Worker-974: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:34:00,004 [Worker-974: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 10:34:00,005 [Worker-974: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:34:00,005 [Worker-974: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 10:34:06,490 [Worker-974: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: a.b:c:1.0.0-BUILD-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic09_Website_Maven_MyBatis/pom.xml.
+2021-05-11 10:34:06,617 [Worker-974: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:34:06,623 [Worker-974: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 10:34:06,624 [Worker-974: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:34:06,624 [Worker-974: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 10:34:06,624 [Worker-974: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic09_Website_Maven_MyBatis
+2021-05-11 10:34:06,625 [Worker-974: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic09_Website_Maven_MyBatis
+2021-05-11 10:34:06,627 [Worker-974: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:34:21,429 [Worker-978: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: a.b:c:1.0.0-BUILD-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic09_Website_Maven_MyBatis/pom.xml.
+2021-05-11 10:34:21,574 [Worker-978: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:34:21,579 [Worker-978: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 10:34:21,580 [Worker-978: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:34:21,581 [Worker-978: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 10:34:21,581 [Worker-978: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic09_Website_Maven_MyBatis
+2021-05-11 10:34:21,581 [Worker-978: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic09_Website_Maven_MyBatis
+2021-05-11 10:34:21,584 [Worker-978: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:34:21,965 [Worker-976: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:34:21,967 [Worker-976: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 10:34:21,968 [Worker-976: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:34:21,968 [Worker-976: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 10:34:24,789 [Worker-976: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: a.b:c:1.0.0-BUILD-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic09_Website_Maven_MyBatis/pom.xml.
+2021-05-11 10:34:24,820 [Worker-976: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:34:24,821 [Worker-976: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 10:34:24,821 [Worker-976: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:34:24,821 [Worker-976: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 10:34:24,822 [Worker-976: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic09_Website_Maven_MyBatis
+2021-05-11 10:34:24,822 [Worker-976: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic09_Website_Maven_MyBatis
+2021-05-11 10:34:24,823 [Worker-976: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:35:22,769 [Worker-972: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: a.b:c:1.0.0-BUILD-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic09_Website_Maven_MyBatis/pom.xml.
+2021-05-11 10:35:22,830 [Worker-972: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:35:22,831 [Worker-972: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 10:35:22,831 [Worker-972: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:35:22,832 [Worker-972: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 10:35:22,832 [Worker-972: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic09_Website_Maven_MyBatis
+2021-05-11 10:35:22,832 [Worker-972: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic09_Website_Maven_MyBatis
+2021-05-11 10:35:22,833 [Worker-972: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:35:23,000 [Worker-978: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:35:23,000 [Worker-978: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 10:35:23,001 [Worker-978: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:35:23,002 [Worker-978: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 10:36:28,195 [Worker-979: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: a.b:c:1.0.0-BUILD-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic09_Website_Maven_MyBatis/pom.xml.
+2021-05-11 10:36:28,261 [Worker-979: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:36:28,265 [Worker-979: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 10:36:28,266 [Worker-979: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 10:36:28,267 [Worker-979: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 10:36:28,267 [Worker-979: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic09_Website_Maven_MyBatis
+2021-05-11 10:36:28,267 [Worker-979: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic09_Website_Maven_MyBatis
+2021-05-11 10:36:28,268 [Worker-979: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:00:05,933 [Worker-985: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:00:05,946 [Worker-985: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 11:00:05,949 [Worker-985: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:00:05,949 [Worker-985: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:00:07,519 [Worker-991: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:00:07,521 [Worker-991: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 11:00:07,521 [Worker-991: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:00:07,521 [Worker-991: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:00:56,675 [Worker-990: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:00:56,705 [Worker-990: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:00:56,729 [Worker-990: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:00:56,731 [Worker-990: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:01:45,863 [Worker-990: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:01:45,867 [Worker-990: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:01:45,867 [Worker-990: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:01:45,867 [Worker-990: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:01:52,193 [Worker-985: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:01:52,202 [Worker-985: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:01:52,203 [Worker-985: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:01:52,203 [Worker-985: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:04:21,440 [Worker-996: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:04:21,454 [Worker-996: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:04:21,458 [Worker-996: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:04:21,462 [Worker-996: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:06:43,957 [Worker-993: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:06:43,968 [Worker-993: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:06:43,970 [Worker-993: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:06:43,971 [Worker-993: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:11:15,908 [Worker-988: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: a.b:c:1.0.0-BUILD-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic09_WebSite_Maven_MyBatis/pom.xml.
+2021-05-11 11:11:16,038 [Worker-988: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:11:16,041 [Worker-988: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 11:11:16,043 [Worker-988: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:11:16,043 [Worker-988: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 11:11:21,601 [Worker-1001: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:11:21,603 [Worker-1001: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 11:11:21,606 [Worker-1001: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:11:21,607 [Worker-1001: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 11:11:38,913 [Worker-1001: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:11:38,925 [Worker-1001: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 11:11:38,926 [Worker-1001: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:11:38,927 [Worker-1001: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:12:35,508 [Worker-1001: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:12:35,517 [Worker-1001: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:12:35,518 [Worker-1001: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:12:35,519 [Worker-1001: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:13:51,977 [Worker-1002: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:13:51,978 [Worker-1002: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:13:51,979 [Worker-1002: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:13:51,979 [Worker-1002: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:15:58,276 [Worker-979: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 11:15:58,296 [Worker-979: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SpringMVC_Basic09_WebSite_Maven_MyBatis
+2021-05-11 11:15:58,301 [Worker-979: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SpringMVC_Dy_Convert
+2021-05-11 11:15:58,306 [Worker-979: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SpringMVC_Maven
+2021-05-11 11:16:00,027 [Worker-979: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:16:00,042 [Worker-979: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/main/resources
+2021-05-11 11:16:00,049 [Worker-979: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:16:00,051 [Worker-979: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert/src/test/resources
+2021-05-11 11:16:00,051 [Worker-979: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 11:16:00,052 [Worker-979: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert
+2021-05-11 11:16:00,068 [Worker-979: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:16:02,334 [Worker-979: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:16:02,361 [Worker-979: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 11:16:02,383 [Worker-979: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:16:02,384 [Worker-979: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 11:16:02,390 [Worker-979: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Basic09_WebSite_Maven_MyBatis
+2021-05-11 11:16:02,390 [Worker-979: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Basic09_WebSite_Maven_MyBatis
+2021-05-11 11:16:02,415 [Worker-979: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:16:02,470 [Worker-979: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:16:02,470 [Worker-979: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Dy_Convert/src/main/resources
+2021-05-11 11:16:02,471 [Worker-979: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:16:02,471 [Worker-979: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringMVC_Dy_Convert/src/test/resources
+2021-05-11 11:16:02,471 [Worker-979: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Dy_Convert
+2021-05-11 11:16:02,471 [Worker-979: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Dy_Convert
+2021-05-11 11:16:02,473 [Worker-979: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:16:02,624 [Worker-979: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:16:02,626 [Worker-979: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 11:16:02,628 [Worker-979: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:16:02,629 [Worker-979: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 11:16:02,629 [Worker-979: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVC_Maven
+2021-05-11 11:16:02,630 [Worker-979: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVC_Maven
+2021-05-11 11:16:02,639 [Worker-979: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:16:02,726 [Worker-979: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-11 11:16:02,727 [Worker-979: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 11:16:02,728 [Worker-979: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-11 11:16:02,728 [Worker-979: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/aopEx2/src/test/resources
+2021-05-11 11:21:05,581 [Worker-1012: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or:kosta:1.0.0-BUILD-SNAPSHOT @ /Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/Mybatis_Web_SpringBoard_07/pom.xml.
+2021-05-11 11:21:07,897 [Worker-1012: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/mybatis/mybatis/3.1.1/mybatis-3.1.1.pom
+2021-05-11 11:21:08,691 [Worker-1012: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.1.1/mybatis-3.1.1.pom
+2021-05-11 11:21:09,048 [Worker-1012: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.1.1/mybatis-3.1.1.pom
+2021-05-11 11:21:09,957 [Worker-1012: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/mybatis/mybatis-parent/15/mybatis-parent-15.pom
+2021-05-11 11:21:10,128 [Worker-1012: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/15/mybatis-parent-15.pom
+2021-05-11 11:21:10,349 [Worker-1012: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/15/mybatis-parent-15.pom
+2021-05-11 11:21:11,176 [Worker-1012: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.pom
+2021-05-11 11:21:11,306 [Worker-1012: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.pom
+2021-05-11 11:21:11,444 [Worker-1012: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.pom
+2021-05-11 11:21:12,203 [Worker-1012: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/mybatis/mybatis-parent/20/mybatis-parent-20.pom
+2021-05-11 11:21:12,359 [Worker-1012: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/20/mybatis-parent-20.pom
+2021-05-11 11:21:12,514 [Worker-1012: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/20/mybatis-parent-20.pom
+2021-05-11 11:21:13,538 [AetherRepositoryConnector-maven.jahia.org-8-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/mybatis/mybatis/3.1.1/mybatis-3.1.1.jar
+2021-05-11 11:21:15,492 [AetherRepositoryConnector-maven.jahia.org-8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar
+2021-05-11 11:21:15,630 [AetherRepositoryConnector-repo.maven.apache.org-9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar
+2021-05-11 11:21:15,678 [AetherRepositoryConnector-repo.maven.apache.org-9-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.1.1/mybatis-3.1.1.jar
+2021-05-11 11:21:15,955 [AetherRepositoryConnector-repo.maven.apache.org-9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar
+2021-05-11 11:21:16,214 [AetherRepositoryConnector-repo.maven.apache.org-9-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.1.1/mybatis-3.1.1.jar
+2021-05-11 11:21:16,783 [Worker-1012: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:21:16,797 [Worker-1012: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 11:21:16,800 [Worker-1012: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:21:16,801 [Worker-1012: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 11:21:23,384 [Worker-1017: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/mybatis/mybatis/3.1.1/mybatis-3.1.1-sources.jar
+2021-05-11 11:21:24,045 [Worker-1017: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.1.1/mybatis-3.1.1-sources.jar
+2021-05-11 11:21:24,816 [Worker-1017: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.1.1/mybatis-3.1.1-sources.jar
+2021-05-11 11:21:24,871 [Worker-1017: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mybatis:mybatis:3.1.1
+2021-05-11 11:21:27,564 [Worker-1017: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2-sources.jar
+2021-05-11 11:21:28,210 [Worker-1017: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2-sources.jar
+2021-05-11 11:21:28,500 [Worker-1017: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2-sources.jar
+2021-05-11 11:21:28,541 [Worker-1017: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mybatis:mybatis-spring:1.2.2
+2021-05-11 11:21:29,132 [Worker-1013: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:21:29,134 [Worker-1013: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:21:29,136 [Worker-1013: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:21:29,136 [Worker-1013: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 11:25:02,897 [Worker-1022: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:25:02,908 [Worker-1022: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 11:25:02,913 [Worker-1022: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 11:25:02,914 [Worker-1022: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 16:29:57,269 [Worker-1147: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 16:29:57,280 [Worker-1147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 16:29:57,282 [Worker-1147: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 16:29:57,283 [Worker-1147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 17:07:10,066 [Worker-1165: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 17:07:10,079 [Worker-1165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 17:07:10,082 [Worker-1165: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 17:07:10,082 [Worker-1165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
