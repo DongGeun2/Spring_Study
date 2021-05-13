@@ -101,6 +101,17 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/idong-geun/Downloads/mybatis/Mybatis_Web_SpringBoard_07"/>
+			<item value="/Users/idong-geun/Downloads/mybatis/Ibatis_Basic01"/>
+			<item value="/Users/idong-geun/Downloads/mybatis/Ibatis_Web_Basic_02"/>
+			<item value="/Users/idong-geun/Downloads/mybatis/Ibatis_Web_Board_03"/>
+			<item value="/Users/idong-geun/Downloads/mybatis/Ibatis_Web_Dynamic_04"/>
+			<item value="/Users/idong-geun/Downloads/mybatis/MyBatis_Basic05"/>
+			<item value="/Users/idong-geun/Downloads/mybatis/Mybatis_Web_Mvc_06"/>
+			<item value="/Users/idong-geun/Downloads/SpringMVC_Basic09_WebSite_Maven_MyBatis"/>
+			<item value="/Users/idong-geun/Downloads/aopEx2"/>
+			<item value="/Users/idong-geun/Downloads/AOPTest"/>
+			<item value="/Users/idong-geun/Downloads/SpringMVC_Basic05_JdbcTemplate"/>
 			<item value="/Users/idong-geun/Downloads/SpringMVC_Basic02_WebSite"/>
 			<item value="/Users/idong-geun/Downloads/SpringLabs/SpringDI_Basic05_Prototype"/>
 			<item value="/Users/idong-geun/Downloads/SpringLabs/SpringDI_Basic04_Bean_LifeCycle"/>
@@ -115,5 +126,9 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="com.springsource.sts.wizard.template"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.springframework.ide.eclipse.beans.ui.wizards.category"/>
+		</list>
 	</section>
 </section>

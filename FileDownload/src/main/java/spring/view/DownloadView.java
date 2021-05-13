@@ -16,11 +16,6 @@ import org.springframework.web.servlet.view.AbstractView;
 @Component("download")
 public class DownloadView extends AbstractView {
 
-	public DownloadView() {
-		setContentType("application/download; charset=UTF-8");
-		// application/download; 로 설정하면 보여지는 화면의 하단부에 다운로드창만 보여지도록 설정(?)
-	}
-
 	@Override
 	protected void renderMergedOutputModel(Map<String, Object> model, HttpServletRequest request, HttpServletResponse response) 
 			throws Exception {
@@ -29,10 +24,8 @@ public class DownloadView extends AbstractView {
         // jsp에서는 EL로 꺼낼 수 있었지만 여기는 jsp페이지가아니므로 .get으로꺼내야함을 기억\
         System.out.println(file);
         
-        
         response.setContentType(getContentType()); 
         response.setContentLength((int) file.length());
-        
         
         String userAgent = request.getHeader("User-Agent");
         
@@ -64,7 +57,6 @@ public class DownloadView extends AbstractView {
         	if(fis!=null) {
         		fis.close();
         	}
-           
         }
         
         out.flush();  // 버퍼에 남은 데이터를 전부 출력한다.

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="SpringMVC_Basic08_WebSite_Annotation_JdbcTemplate_include_Maven_Convert"/>
+<aop-project name="SpringMVC_Maven"/>
+<aop-project name="aopEx2"/>
 <aop-project name="SpringDI_Basic02_xmlSetting"/>
+<aop-project name="SpringMVC_Basic09_WebSite_Maven_MyBatis"/>
+<aop-project name="Mybatis_Web_SpringBoard_07"/>
 </aop-reference-model>
