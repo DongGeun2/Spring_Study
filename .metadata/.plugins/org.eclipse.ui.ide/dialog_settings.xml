@@ -90,6 +90,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/forweaver.dev-SVN"/>
+			<item value="/Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/sockjs-client"/>
 			<item value="/Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE"/>
 			<item value="/Users/idong-geun/workspace-spring-tool-suite-4-4.10.0.RELEASE/SpringDAO_Basic1"/>
 		</list>
@@ -101,6 +103,16 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/idong-geun/Downloads/Ajax"/>
+			<item value="/Users/idong-geun/Downloads/SpringSecurity2/spring_security_Basic05_Annotation"/>
+			<item value="/Users/idong-geun/Downloads/SpringSecurity2/spring_security_Basic06_handler"/>
+			<item value="/Users/idong-geun/Downloads/SpringSecurity2/spring_security_Basic04_password"/>
+			<item value="/Users/idong-geun/Downloads/SpringMVC"/>
+			<item value="/Users/idong-geun/Downloads/SpringSecurity/spring_security_Basic03"/>
+			<item value="/Users/idong-geun/Downloads/SpringSecurity/spring_security_Basic02"/>
+			<item value="/Users/idong-geun/Downloads/SpringSecurity/spring_security_Basic01"/>
+			<item value="/Users/idong-geun/Downloads/SpringMVC_Basic11_Website_Maven_MyBatis_Security"/>
+			<item value="/Users/idong-geun/Downloads/SpringMVC_Basic11_WebSite_Maven_MyBatis_Security"/>
 			<item value="/Users/idong-geun/Downloads/mybatis/Mybatis_Web_SpringBoard_07"/>
 			<item value="/Users/idong-geun/Downloads/mybatis/Ibatis_Basic01"/>
 			<item value="/Users/idong-geun/Downloads/mybatis/Ibatis_Web_Basic_02"/>
@@ -111,15 +123,6 @@
 			<item value="/Users/idong-geun/Downloads/SpringMVC_Basic09_WebSite_Maven_MyBatis"/>
 			<item value="/Users/idong-geun/Downloads/aopEx2"/>
 			<item value="/Users/idong-geun/Downloads/AOPTest"/>
-			<item value="/Users/idong-geun/Downloads/SpringMVC_Basic05_JdbcTemplate"/>
-			<item value="/Users/idong-geun/Downloads/SpringMVC_Basic02_WebSite"/>
-			<item value="/Users/idong-geun/Downloads/SpringLabs/SpringDI_Basic05_Prototype"/>
-			<item value="/Users/idong-geun/Downloads/SpringLabs/SpringDI_Basic04_Bean_LifeCycle"/>
-			<item value="/Users/idong-geun/Downloads/SpringDAO_Basic5"/>
-			<item value="/Users/idong-geun/Downloads/SpringDAO_Basic4"/>
-			<item value="/Users/idong-geun/Downloads/SpringDAO_Basic3"/>
-			<item value="/Users/idong-geun/Downloads/SpringDAO_Basic2"/>
-			<item value="/Users/idong-geun/Downloads/SpringDAO_Basic1"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

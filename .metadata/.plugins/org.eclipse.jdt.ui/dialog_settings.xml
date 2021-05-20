@@ -70,7 +70,7 @@
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item key="index" value="1"/>
+		<item key="index" value="5"/>
 	</section>
 	<section name="RefactoringWizard.preview">
 		<item key="width" value="600"/>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--  
+[key point]
+Mybatis 사용 프로젝트 진행시
+
+1. mapper namespace 이름 : DAO 가지는 interface 이름을 그대로
+2. <select id="" 이름을  interface 가지는 함수명과 동일
+result : interface 와 mapper 있으면 실행
+
+	//게시물 개수
+	public int getCount(String field, String query) throws ClassNotFoundException, SQLException;
+	//전체 게시물
+	public List<Notice> getNotices(int page, String field, String query) throws ClassNotFoundException, SQLException;
+	//게시물 삭제
+	public int delete(String seq) throws ClassNotFoundException, SQLException;
+	//게시물 수정
+	public int update(Notice notice) throws ClassNotFoundException, SQLException;
+	//게시물 상세
+	public Notice getNotice(String seq) throws ClassNotFoundException, SQLException;
+	//게시물 입력
+	public int insert(Notice n) throws ClassNotFoundException, SQLException;
+-->
+
+<mapper namespace="dao.NoticeDao">
+
+	<!--
+		게시물 개수
+	 public int getCount(String field, String query)
+	 1. parameter 1개: 생략 or parameterType="int" 명시
+	 2. parameter가 DTO 객체: parameterType="vo.Notice"
+	 3. parameter가 2개 이상이고, DTO가 없는 경우
+	 3.1 hashMap >> map.put(key1, value1) , map.put(key2, value2) >> parameterType="Map"
+	 3.2 mybatis가 parameter값을 read하는 방법: param1, param2, param3 .... (mybatis에서만 가능 / 하나짜리는 못읽는다)
+	 
+	 	ex) public int getCount(String field, String query) >> mapper에서 param1, param2 로 사용 가능
+	 		param1 -> field / param2 -> query
+	 		(주의) parameter 1개짜리는 param1으로 받을 수 없음
+	 -->
+	<select id="getCount" resultType="int">
+		SELECT COUNT(*) CNT 
+		FROM NOTICES 
+		WHERE ${param1} LIKE '%${param2}%'
+	</select>
+	
+	<!-- 
+		전체 게시물 
+	public List<Notice> getNotices(int page, String field, String query)
+	param1 > page / param2 > field / param3 > query
+	
+	int srow = 1 + (page-1)*5;
+	int erow = 5 + (page-1)*5; 
+	
+	? >> "%"+query+"%"   >> LIKE '%${param3}%'
+	? >> srow
+	? >> erow
+	
+	## 논리나 수식이 필요한 것은 DB한테 넘기세용! ##
+	
+	 -->
+	<select id="getNotices" resultType="vo.Notice">
+            SELECT * FROM
+                      (
+                        SELECT ROWNUM NUM, N.* 
+                        FROM 
+                           (  SELECT * 
+                              FROM NOTICES 
+                              WHERE ${param2} LIKE '%${param3}%' ORDER BY REGDATE DESC
+                            ) N
+                       )  WHERE NUM BETWEEN 1 + (${param1}-1)*5 AND 5 + (${param1}-1)*5
+      </select>
+	
+	<!-- 
+		게시물 상세
+	public Notice getNotice(String seq)
+	parameter타입 생략 가능
+	 -->
+	<select id="getNotice" resultType="vo.Notice">
+		SELECT seq,title,writer,content,regdate,hit,filesrc,filesrc2 
+		FROM NOTICES 
+		WHERE SEQ=#{seq}
+	</select>
+	
+	<!-- 
+		게시물 삭제
+	public int delete(String seq)
+	 -->
+	<delete id="delete">
+		DELETE NOTICES WHERE SEQ=#{seq}
+	</delete>
+	
+	<!-- 
+		게시물 수정
+	public int update(Notice notice)
+	파일 수정: null, null
+	1개 수정: 1.jpg, null
+	2개 수정: 1.jpg, 2.jpg
+	
+	(mybatis) 값이 넘어오지 않는 경우 null을 처리하는 방법
+	: jdbcType=VARCHAR -> 값이 넘어오지 않을 때 NULL값을 기본적으로 보내준다.
+	: FILESRC=#{fileSrc ,jdbcType=VARCHAR} => FILESRC = null
+	 -->
+	 <update id="update" parameterType="vo.Notice">
+	 	UPDATE NOTICES 
+	 	SET TITLE=#{title}, 
+	 		CONTENT=#{content}, 
+	 		FILESRC=#{fileSrc ,jdbcType=VARCHAR}, 
+	 		FILESRC2=#{fileSrc2 ,jdbcType=VARCHAR} 
+	 	WHERE SEQ=#{seq}
+	 </update>
+	 
+	 <!-- 
+	 	게시물 입력
+	public int insert(Notice n)
+	  
+	  [방법1]
+	 <insert id="insert" parameterType="vo.Notice">
+	 	INSERT INTO NOTICES(SEQ, TITLE, CONTENT, WRITER, REGDATE, HIT, FILESRC , FILESRC2) 
+	 	VALUES( (SELECT MAX(TO_NUMBER(SEQ))+1 FROM NOTICES), #{title}, #{content}, 'bituser', SYSDATE, 0, #{fileSrc},#{fileSrc2})
+	 </insert>
+	 
+	  [방법2]
+	 -->
+	 <insert id="insert" parameterType="vo.Notice">
+	 	<!-- selectKey가 실행된 값을 변수에 넣어서 사용 가능 (쿼리문 실행 전 실행된다 ->  BEFORE줬으니까) -->
+	 	<selectKey order="BEFORE" keyProperty="seq" resultType="String">
+	 		SELECT MAX(TO_NUMBER(SEQ))+1 FROM NOTICES
+	 	</selectKey>
+		 	INSERT INTO NOTICES(SEQ, TITLE, CONTENT, WRITER, REGDATE, HIT, FILESRC , FILESRC2) 
+		 	VALUES( #{seq}, #{title}, #{content}, 'bituser', SYSDATE, 0, #{fileSrc},#{fileSrc2})
+	 </insert>
+	  
+	 <!-- public int updateOfMemberPoint(String userid) --> 
+	  <update id="updateOfMemberPoint">
+			UPDATE MEMBER
+			SET point = nvl(point,0) + 1 
+			WHERE userid = #{userid};
+	  </update>
+	  
+	  
+</mapper>
+
+
+
+
+
+
+
